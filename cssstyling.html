@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css</title>
+    <style>
+        #box1{
+            margin: 20px;
+            padding: 20px;
+            border: 2px green solid;
+            float: left;
+            background-color: chartreuse;
+            width: 200px;
+        }
+
+        #box2{
+            margin: 20px;
+            padding: 20px;
+            border: 2px red solid;
+            float: right;
+            background-color: coral;
+            width: 200px;
+        }
+        .text{
+            text-align: center;
+        }
+        .clr{
+            clear: both;
+        }
+        ul.mylist{
+            list-style: none;
+            padding: 0;
+            line-height: 2.2em;
+        }
+        ul.mylist li{
+            border-bottom: 1px dotted green;
+        }
+        h1{
+           /* visibility: hidden;*/
+           /* display: none;*/
+           display: inline;
+           color: coral;
+          /* text-align: center;*/
+        }
+    </style>
+</head>
+<body>
+    <h1 class="text">Welcome</h1>
+    <p class="text">this is a paragraph</p>
+    <p class="text">this is a paragraph</p>
+    <div id="box1">
+      this is  box 1
+    </div>
+
+    <div id="box2">
+       this is box 2
+    </div>
+
+    <div class="clr">hello</div>
+    <ul class="mylist">
+        <li>list 1</li>
+        <li>list 1</li>
+        <li>list 1</li>
+        <li>list 1</li>
+    </ul>
+</body>
+</html>
